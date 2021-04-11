@@ -113,10 +113,17 @@ const baby = new Baby({
 /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
+    1.
+       default: The "this keyword defaults to the window if it isn't attached to a value. This means it will include all fo the javascript in the browser."
+
     2. 
-    3. 
-    4. 
+      implicit binding: When invoking a function with dot notation, the context to teh left of the dot is what becomes the context for "this."
+
+    3.
+      explicit binding: using the methods .call, .apply, or .bind, we can assign "this" to anything we want it to reference. 
+
+    4.  
+      new binding: when a function is called with the "new" keyword, "this" represents the new object that is created.  
   */
 
 ///////// END OF CHALLENGE /////////
